@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: many_db_development
+  user: ben
+
+other_db:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: many_db_other_development
+  user: ben
